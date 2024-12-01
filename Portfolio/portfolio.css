@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: "Nunito", serif;
+  font-weight: 400;
+  font-style: normal;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+   /* background: rgb(0,20,47);
+background: radial-gradient(circle, rgba(0,20,47,1) 0%, rgba(15,34,77,1) 100%); */
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    /* background-color: #0b0e2d; */
+    /* background: rgb(51,148,150);
+background: radial-gradient(circle, rgba(51,148,150,1) 0%, rgba(221,173,72,1) 97%);
+backdrop-filter: blur(10px); */
+background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+backdrop-filter: blur(10px); /* Apply blur effect */
+-webkit-backdrop-filter: blur(10px); /* For Safari */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero img {
+    width: 200px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #d1d1d1;
+}
+
+.more-content {
+    display: none; /* Hide the additional content by default */
+}
+
+#more:target {
+    display: block; /* Show the additional content when targeted */
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    /* background-color: #12153d; */
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
+
+.portfolio-item {
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 200px;
+}
+
+.featured-project, .personal-project, .live-events {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-project img, .personal-project img, .live-events i {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.event-item i{
+    font-size: 30px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+footer {
+    padding: 20px 50px;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+    /* background-color: #0b0e2d; */
+    text-align: center;
+}
+
+footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+footer .social-media i {
+    width: 60px;
+}
+
+footer .footer-logo img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-bottom: 20px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+footer p {
+    color: #d1d1d1;
+}
